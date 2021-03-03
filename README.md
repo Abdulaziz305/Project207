@@ -32,16 +32,13 @@ The type of data which will be required for this purpose is:
 
 
 
-2.	Problem Solution
-
+2.	Problem Solution:
      We devise use of different data structures for each different functionality defined in the above section to solve the problem in an efficient manner. 
 
-2.1.	Sorting the inventory
-
+2.1.	Sorting the inventory:
       To save items in an inventory, we needed a data structure which allows quick addition/deletion of items without wasting a lot of space and time. Due to large number of items in a production database, space is a particular concern. For that purpose, we evaluated use of both arrays and linked lists and decided to go with Linked List as they allow addition and deletion in constant time. Also, there is no space wastage like in arrays.
 
 
-2.2.	Efficient sorting
-
+2.2.	Efficient sorting:
      The application needs to quickly sort and return the items list based on the metric.
 We considered the use of a MinHeap. A MinHeap, through bubble up/down techniques employed during insertion/deletion of elements, maintains a structure which returns the lowest priced item in constant time (Big Oh of 1).
